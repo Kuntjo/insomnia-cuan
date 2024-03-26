@@ -1,0 +1,65 @@
+_id: req_b9e55244eeaf416fb3e53d3e2a247463
+type: Request
+parentId: fld_64861ca17a394991a2079a28395272d7
+modified: 1711427190764
+created: 1710303187923
+url: http://localhost:8083/loan/v1/form/post-form
+name: Post Form
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"formToJenis" : {
+    		"idJenisPinjaman" : 3
+    	},
+    	"formToUser" : {
+    		"idUser" : 2
+    	},
+    	"formToCabang" : {
+    		"idCabang" : 1
+    	},
+      "jenisKelamin": "Male",
+      "tempatLahir": "Jakarta",
+      "tanggalLahir": "1985-01-01",
+      "alamatKtp": "Jl. Kebon Sirih No. 123",
+      "kodePos": "12345",
+      "kelurahan": "Kebon Sirih",
+      "kecamatan": "Menteng",
+      "npwp": "123456789012345",
+      "unitBNI": "Jakarta Utara",
+      "penghasilanBersihPerbulan": 10334170,
+      "jumlahPinjaman": 50000000,
+      "jangkaWaktu": 120,
+      "hargaRumah": 1000000000,
+      "persentaseUangMuka": 20,
+      "uangMuka": 200000000,
+      "tanggalRealisasi": "2024-03-19"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_826b44071f51416d92f4d491d3ba4d20
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6ccdaaf7382e475ea7fea03c0f12a52b
+  - id: pair_7b673ce751144d0aa64fd0658d846e7e
+    name: Authorization
+    value: "Bearer "
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJ1c2VybmFtZSI6ImciLCJpYXQiOjE3MTEzMzQyMjMsImV4cCI6MTcxMTMzNzgyM30.H2BxYdgOfyEXJzpmB_T_v44_IU-Gl5t89XG7JerXyBQ
+  disabled: false
+  prefix: Bearer
+metaSortKey: -1710389602614
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

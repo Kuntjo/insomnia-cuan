@@ -1,0 +1,27 @@
+_id: req_a55fd2089d084cc4b12e15dd43007256
+type: Request
+parentId: fld_72ee1c94b41a4bf994500aea63b4b122
+modified: 1711353080305
+created: 1710922302290
+url: http://localhost:8083/loan/v1/cabang/get-cabangs
+name: Get Cabang
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjIiLCJyb2xlIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4yIiwiaWF0IjoxNzExMzUzMDI0LCJleHAiOjE3MTEzNTY2MjR9.vHHynT9bBIUaE8Nq-u_vOlvNg1ADCr9eLl8RNdsmDRg
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1710922302290
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

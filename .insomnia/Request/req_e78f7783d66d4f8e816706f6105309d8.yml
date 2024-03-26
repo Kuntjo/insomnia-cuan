@@ -1,0 +1,23 @@
+_id: req_e78f7783d66d4f8e816706f6105309d8
+type: Request
+parentId: fld_e7b870ddbccf4eaba3fd5a2a333b523b
+modified: 1711432905905
+created: 1711432858458
+url: http://localhost:8083/loan/v1/pinjaman/get-pinjamans
+name: Get Detail Pinjaman
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711432858458
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

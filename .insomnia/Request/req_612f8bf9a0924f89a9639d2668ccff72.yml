@@ -1,0 +1,51 @@
+_id: req_612f8bf9a0924f89a9639d2668ccff72
+type: Request
+parentId: fld_64861ca17a394991a2079a28395272d7
+modified: 1711342180465
+created: 1711340781416
+url: http://localhost:8083/loan/v1/form/post-form
+name: Post Form 2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"formToJenis" : {
+    		"idJenisPinjaman" : 1
+    	},
+    	"formToUser" : {
+    		"idUser" : 9
+    	},
+    	"formToCabang" : {
+    		"idCabang" : 3
+    	},
+      "penghasilanBersihPerbulan": 10334170,
+      "jangkaWaktu": 120
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_826b44071f51416d92f4d491d3ba4d20
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6ccdaaf7382e475ea7fea03c0f12a52b
+  - id: pair_7b673ce751144d0aa64fd0658d846e7e
+    name: Authorization
+    value: "Bearer "
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJ1c2VybmFtZSI6ImciLCJpYXQiOjE3MTEzNDA4NzcsImV4cCI6MTcxMTM0NDQ3N30.E5qBg4FeP4MZyf3tujwkZ3iGdU_j5UXX4hPXD2Q5uRU
+  disabled: false
+  prefix: Bearer
+metaSortKey: -1710389602564
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

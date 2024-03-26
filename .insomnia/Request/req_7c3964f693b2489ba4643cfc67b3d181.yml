@@ -1,0 +1,23 @@
+_id: req_7c3964f693b2489ba4643cfc67b3d181
+type: Request
+parentId: fld_e7b870ddbccf4eaba3fd5a2a333b523b
+modified: 1711432973851
+created: 1711432745866
+url: http://localhost:8083/loan/v1/pinjaman/soft-delete-pinjaman/1
+name: Soft Delete Detail Pinjaman
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711432858358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,37 @@
+_id: req_4f96360df5c04d7eb8f080e860652824
+type: Request
+parentId: fld_489dceb8ecd547cba025e8a8bfa59aab
+modified: 1711334466937
+created: 1710390314672
+url: http://localhost:8083/loan/v1/admin/post-admin
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nameAdmin": "Oppenheimer",
+      "nppAdmin": "NPP111",
+      "usernameAdmin": "Oppenheimer",
+      "passwordAdmin": "admin123",
+      "profilepictdAdmin": "profile_picture_url"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJ1c2VybmFtZSI6ImciLCJpYXQiOjE3MTExMDA0OTAsImV4cCI6MTcxMTEwNDA5MH0.XzuSG3VM85_pZ4RKLv8Dj-VImyVS8edsXsg--JEK-U0
+  prefix: Bearer
+metaSortKey: -1710390314672
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

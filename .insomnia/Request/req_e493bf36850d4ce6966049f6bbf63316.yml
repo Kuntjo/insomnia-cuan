@@ -1,0 +1,35 @@
+_id: req_e493bf36850d4ce6966049f6bbf63316
+type: Request
+parentId: fld_72ee1c94b41a4bf994500aea63b4b122
+modified: 1711353088842
+created: 1710922306606
+url: http://localhost:8083/loan/v1/cabang/post-cabang
+name: Post Cabang
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nameCabang" : "BNI Bogor",
+    	"kotaCabang" : "Bogor",
+    	"kodeCabang" : "200"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJ1c2VybmFtZSI6ImciLCJpYXQiOjE3MTExMDA0OTAsImV4cCI6MTcxMTEwNDA5MH0.XzuSG3VM85_pZ4RKLv8Dj-VImyVS8edsXsg--JEK-U0
+  prefix: Bearer
+metaSortKey: -1710922306606
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

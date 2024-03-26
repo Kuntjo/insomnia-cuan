@@ -1,0 +1,23 @@
+_id: req_440c6203215b4f36bd4afa4249cbf2cd
+type: Request
+parentId: fld_9f9462efb07d4389ae8e210b6d708d17
+modified: 1710811909919
+created: 1710381627151
+url: http://localhost:8083/loan/v1/user/get-users
+name: Get User
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1710381627151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

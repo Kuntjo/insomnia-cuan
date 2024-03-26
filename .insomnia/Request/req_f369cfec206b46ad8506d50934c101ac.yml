@@ -1,0 +1,26 @@
+_id: req_f369cfec206b46ad8506d50934c101ac
+type: Request
+parentId: fld_2b8cd68d308b416eb5dd9f0fb69baf3e
+modified: 1711353474454
+created: 1711353358706
+url: http://localhost:8083/loan/v1/jenis-pinjaman/get-jenis-pinjamans
+name: Get Jenis Pinjaman
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  prefix: Bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjIiLCJyb2xlIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4yIiwiaWF0IjoxNzExMzUzNDUxLCJleHAiOjE3MTEzNTcwNTF9.3a1y8X6lFFaoY9nzOnjqk__m6cEy4agE2AxSYBOr2zw
+metaSortKey: -1711353358706
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

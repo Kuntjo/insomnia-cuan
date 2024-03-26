@@ -1,0 +1,31 @@
+_id: req_b3b95073eedd4d0ab1c803041cc9f445
+type: Request
+parentId: wrk_2e2fbe8ebdbb408497dd81aeb8dc8f18
+modified: 1711353448821
+created: 1710403632257
+url: http://localhost:8083/rest/auth/login-admin
+name: Login Admin
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"username" : "admin2",
+    	"password" : "123456"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1711353346009
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

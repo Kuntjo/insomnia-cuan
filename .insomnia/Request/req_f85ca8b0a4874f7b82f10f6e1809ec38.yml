@@ -1,0 +1,33 @@
+_id: req_f85ca8b0a4874f7b82f10f6e1809ec38
+type: Request
+parentId: fld_64861ca17a394991a2079a28395272d7
+modified: 1710811894546
+created: 1710750357893
+url: http://localhost:8083/loan/v1/form/update-status
+name: New Request
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"id" : 2,
+    	"statusPengajuan": "Approved"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJpYXQiOjE3MTA3NTA1NDgsImV4cCI6MTcxMDc1NDE0OH0.38DAoOVLtH7YPOU92ER8pCRTW7ejaA_1SzXq_SxRapw
+metaSortKey: -1710750357893
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

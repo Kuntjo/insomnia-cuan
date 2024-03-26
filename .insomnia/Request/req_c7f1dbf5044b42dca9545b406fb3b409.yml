@@ -1,0 +1,26 @@
+_id: req_c7f1dbf5044b42dca9545b406fb3b409
+type: Request
+parentId: fld_8571701ae8ab4d45b4519b43e15621e9
+modified: 1711353249412
+created: 1711353220470
+url: http://localhost:8083/loan/v1/promo/get-promos
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjIiLCJyb2xlIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4yIiwiaWF0IjoxNzExMzUzMDI0LCJleHAiOjE3MTEzNTY2MjR9.vHHynT9bBIUaE8Nq-u_vOlvNg1ADCr9eLl8RNdsmDRg
+  prefix: Bearer
+metaSortKey: -1711353220470
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

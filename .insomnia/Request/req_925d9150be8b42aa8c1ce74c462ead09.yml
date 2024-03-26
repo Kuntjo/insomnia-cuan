@@ -1,0 +1,31 @@
+_id: req_925d9150be8b42aa8c1ce74c462ead09
+type: Request
+parentId: fld_64861ca17a394991a2079a28395272d7
+modified: 1711426877408
+created: 1708583611631
+url: http://localhost:8083/loan/v1/form/get-form
+name: Get Form
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbjIiLCJyb2xlIjoiUk9MRV9BRE1JTiIsInVzZXJuYW1lIjoiYWRtaW4yIiwiaWF0IjoxNzExNDI2ODY2LCJleHAiOjE3MTE0MzA0NjZ9.q22GZsAPkYAIv8rEHMxq8hzDU1mWKueoLFlLsXDibZ0
+  prefix: Bearer
+  disabled: false
+metaSortKey: -1710389602514
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

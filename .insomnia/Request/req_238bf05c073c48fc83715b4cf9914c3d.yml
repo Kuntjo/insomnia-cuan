@@ -1,0 +1,43 @@
+_id: req_238bf05c073c48fc83715b4cf9914c3d
+type: Request
+parentId: wrk_2e2fbe8ebdbb408497dd81aeb8dc8f18
+modified: 1710831141638
+created: 1708502312527
+url: http://localhost:8081/loan/v1/jenis-pinjaman/post-jenis-pinjaman
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"nameJenisPinjaman": "BNI Fleksi Aktif",
+    	"gambarJenisPinjaman": "url_picture",
+    	"iconJenisPinjaman" : "icon_url"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_826b44071f51416d92f4d491d3ba4d20
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6ccdaaf7382e475ea7fea03c0f12a52b
+  - id: pair_7b673ce751144d0aa64fd0658d846e7e
+    name: Authorization
+    value: "Bearer "
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrdW50am9AZ21haWwuY29tIiwiZXhwIjoxOTI0NTA1NDkwfQ.PcTgowAsq2V5SHt5XeMZwRScJ7ENohtQEFiSVZYK1og
+  disabled: false
+  prefix: ""
+metaSortKey: -1695001217830
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

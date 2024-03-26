@@ -1,0 +1,23 @@
+_id: req_c8695d478e3b4988b6992b626296b42f
+type: Request
+parentId: fld_64861ca17a394991a2079a28395272d7
+modified: 1711431931739
+created: 1711427512177
+url: http://localhost:8083/loan/v1/form/soft-delete-form/3
+name: Soft Delete Form
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1710389554356
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

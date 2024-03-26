@@ -1,0 +1,42 @@
+_id: req_420b4fb872fd49d5a12ae3a8fe042a17
+type: Request
+parentId: fld_9f9462efb07d4389ae8e210b6d708d17
+modified: 1711337841558
+created: 1708583630182
+url: http://localhost:8083/loan/v1/user/post-user
+name: Post User
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nameUser": "Tyler The Creator",
+    		"nikUser": "1234567890567890"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_826b44071f51416d92f4d491d3ba4d20
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6ccdaaf7382e475ea7fea03c0f12a52b
+  - id: pair_7b673ce751144d0aa64fd0658d846e7e
+    name: Authorization
+    value: "Bearer "
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJnIiwicm9sZSI6IlJPTEVfQURNSU4iLCJ1c2VybmFtZSI6ImciLCJpYXQiOjE3MTEzMzc0MjQsImV4cCI6MTcxMTM0MTAyNH0.V7PrMdT4q7xpQoHfM2R9BB6DYWFN2hPAvDJa9K1lS7U
+  disabled: false
+  prefix: Bearer
+metaSortKey: -1710381598243
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

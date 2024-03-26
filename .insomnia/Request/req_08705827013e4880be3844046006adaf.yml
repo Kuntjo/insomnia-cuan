@@ -1,0 +1,31 @@
+_id: req_08705827013e4880be3844046006adaf
+type: Request
+parentId: fld_dad11bf8f4404743864d58ce524910e5
+modified: 1710811864646
+created: 1710305580002
+url: http://localhost:8083/loan/v1/account/get-accounts
+name: Get Account
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1bHRyYW1hbiIsInVzZXJuYW1lIjoidWx0cmFtYW4iLCJleHAiOjE5MjQ2NzY2NDB9.gIfLvtOcVfJaSzS0TYbpvB85KRPppfJi2J3Qeggb9hA
+  prefix: Bearer
+  disabled: true
+metaSortKey: -1710398510832
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

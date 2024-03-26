@@ -1,0 +1,36 @@
+_id: req_b1b71f4446304339acae41d0f4bae92d
+type: Request
+parentId: fld_2b8cd68d308b416eb5dd9f0fb69baf3e
+modified: 1711353545318
+created: 1711353356272
+url: http://localhost:8083/loan/v1/jenis-pinjaman/post-jenis-pinjaman
+name: Post Jenis Pinjaman
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    		"nameJenisPinjaman": "BNI Fleksi Pensiun",
+    		"bungaPinjaman": 0.1074,
+    		"gambarJenisPinjaman": "https://i.imgur.com/azUnAsh.png",
+    		"iconJenisPinjaman": "https://i.imgur.com/MrKLSHu.png"
+    	}
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: http://localhost:8083/loan/v1/jenis-pinjaman/get-jenis-pinjamans
+  prefix: Bearer
+metaSortKey: -1711353356272
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

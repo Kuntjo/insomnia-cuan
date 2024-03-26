@@ -1,0 +1,45 @@
+_id: req_a519ff46ddf448cc8a328dcf7acf2417
+type: Request
+parentId: fld_dad11bf8f4404743864d58ce524910e5
+modified: 1711334831221
+created: 1710305163762
+url: http://localhost:8083/loan/v1/account/post-account
+name: Post Account
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"passwordAccount" : "123456",
+    	"usernameAccount" : "not cooked",
+    	"accountToUser" : {
+    		"idUser" : 2
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_826b44071f51416d92f4d491d3ba4d20
+  - name: User-Agent
+    value: insomnia/2023.5.8
+    id: pair_6ccdaaf7382e475ea7fea03c0f12a52b
+  - id: pair_7b673ce751144d0aa64fd0658d846e7e
+    name: Authorization
+    value: "Bearer "
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJrdW50am9AZ21haWwuY29tIiwiZXhwIjoxOTI0NTA1NDkwfQ.PcTgowAsq2V5SHt5XeMZwRScJ7ENohtQEFiSVZYK1og
+  disabled: true
+  prefix: ""
+metaSortKey: -1710398510732
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
